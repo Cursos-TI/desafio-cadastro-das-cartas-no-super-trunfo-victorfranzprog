@@ -7,51 +7,53 @@ int main() {
 
 // base referente a carta1
 
-   printf("Estado Carta1: ");
+   printf("Cadastro da Carta 1:\n");
+   printf("Digite o Estado (A-H): ");
    scanf("%s", &estado);
 
-   printf("Codigo da carta1: ");
+   printf("Digite o código (Ex:A01): ");
    scanf("%s", &codigo);
 
-   printf("Nome da cidade Carta1: ");
+   printf("Digite o Nome da Cidade: ");
    scanf("%s", &cidade);
 
-   printf("População Carta1: ");
+   printf("Digite a População: ");
    scanf("%d", &populacao);
 
-   printf("Área Carta1: ");
+   printf("Digite a Área (em km2): ");
    scanf("%f", &area);
 
-   printf("PIB Carta1: ");
+   printf("Digite o PIB (em bilhoes de reais): ");
    scanf("%f", &pib);
 
-   printf("Número de pontos turísticos Carta1: ");
+   printf("Digite o Numero de Pontos Turisticos: ");
    scanf("%d", &pontos);
 
 // base referente a carta2
 
-   printf("Estado Carta2: ");
+   printf("\nCadastro da Carta 2:\n");
+   printf("Digite o Estado (A-H): ");
    scanf("%s", &estado2);
 
-   printf("Codigo da carta Carta2: ");
+   printf("Digite o código (Ex:A01): ");
    scanf("%s", &codigo2);
 
-   printf("Nome da cidade Carta2: ");
+   printf("Digite o Nome da Cidade: ");
    scanf("%s", &cidade2);
 
-   printf("População Carta2: ");
+   printf("Digite a População: ");
    scanf("%d", &populacao2);
 
-   printf("Área Carta2: ");
+   printf("Digite a Área (em km2): ");
    scanf("%f", &area2);
 
-   printf("PIB Carta2: ");
+   printf("Digite o PIB (em bilhoes de reais): ");
    scanf("%f", &pib2);
 
-   printf("Número de pontos turísticos Carta2: ");
+   printf("Digite o Numero de Pontos Turisticos: ");
    scanf("%d", &pontos2);
 
-   printf("Carta1\n");
+   printf("\n----Carta1----\n");
    printf("Estado: %s\n",estado);
    printf("Código: %s\n",codigo);
    printf("Nome da cidade: %s\n",cidade);
@@ -61,7 +63,7 @@ int main() {
    printf("Número de Pontos Turísticos: %d\n",pontos);
 
 
-   printf("Carta2\n");
+   printf("\n----Carta2----\n");
    printf("Estado: %s\n",estado2);
    printf("Código: %s\n",codigo2);
    printf("Nome da cidade: %s\n",cidade2);
